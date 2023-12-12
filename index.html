@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Dashboard</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <div class="left-container">
+        <h1>Search for a city: </h1>
+        <form>
+            <input type="text" id="searchInput" placeholder="Enter a city name...">
+            <button id="searchBtn">Search</button>
+            
+            <div id="error-msg"></div>
+        </form>
+        <div class="city-list">
+            <ul>
+                
+                <li class="cityList">Atlanta</li>
+                <li class="cityList">Denver</li>
+                <li class="cityList">Seattle</li>
+                <li class="cityList">San Francisco</li>
+                <li class="cityList">Orlando</li>
+                <li class="cityList">New York</li>
+                <li class="cityList">Chicago</li>
+                <li class="cityList">Austin</li>
+            </ul>
+        </div>
+    </div>
+
+    
+    <div class="main-container">
+        <div class="current-day">
+            <div class="city-header">
+                <h1 id="cityName"></h1>
+            </div>
+            <div class="day">
+                <h1 class="date-fc"></h1>
+                <img src="" class="weather-fc"/>
+                <p class="temp-fc">Temperature: </p>
+                <p class="wind-fc">Wind Speed: </p>
+                <p class="humidity-fc">Humidity: </p>
+            </div>
+            
+        </div>
+
+        <h1 id="day5text">5-Day Forecast</h1>
+
+        
+        <div class="day-forecast">
+            <div class="day">
+                <h1 class="date-fc"></h1>
+                <img src="" class="weather-fc"/>
+                <p class="temp-fc">Temperature: </p>
+                <p class="wind-fc">Wind Speed: </p>
+                <p class="humidity-fc">Humidity: </p>
+            </div>
+
+            
+            <div class="day">
+                <h1 class="date-fc"></h1>
+                <img src="" class="weather-fc"/>
+                <p class="temp-fc">Temperature: </p>
+                <p class="wind-fc">Wind Speed: </p>
+                <p class="humidity-fc">Humidity: </p>
+            </div>
+
+            
+            <div class="day">
+                <h1 class="date-fc"></h1>
+                <img src="" class="weather-fc"/>
+                <p class="temp-fc">Temperature: </p>
+                <p class="wind-fc">Wind Speed: </p>
+                <p class="humidity-fc">Humidity: </p>
+            </div>
+
+            
+            <div class="day">
+                <h1 class="date-fc"></h1>
+                <img src="" class="weather-fc"/>
+                <p class="temp-fc">Temperature: </p>
+                <p class="wind-fc">Wind Speed: </p>
+                <p class="humidity-fc">Humidity: </p>
+            </div>
+
+          
+            <div class="day">
+                <h1 class="date-fc"></h1>
+                <img src="" class="weather-fc"/>
+                <p class="temp-fc">Temperature: </p>
+                <p class="wind-fc">Wind Speed: </p>
+                <p class="humidity-fc">Humidity: </p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
